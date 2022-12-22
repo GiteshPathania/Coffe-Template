@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link href="css/style.css" rel="stylesheet"/>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+
+<script>
+    $(document).ready(function(){
+  $("#hide").click(function(){
+    $("#show").toggle("slow");
+  });
+});
+</script>
+
+</head>
+<body>
+    <div class="header">
+        <div class="logo">KOPPEE</div>
+        <div class="nav">
+            <ul id="show">
+                <li><span style="color:#da9f5b;">Home</span></li>
+                <li>About</li>
+                <li>Contact</li>
+                <li>Blogs</li>
+                <li>Login</li>
+            </ul>
+        </div>
+
+        <div class="menubar" id="hide">
+            <ul>
+                <li><i class="fa fa-bars"></i></li>
+            </ul>
+        </div>
+     
+    </div>
+
+    <div class="main1">
+        <div class="text">
+            <h2>We Have Been Serving</h2><h1>COFFEE</h1><h3>* SINCE 1950 *</h3>
+        </div>
+    </div>
+
+    
+    <div class="main2">
+        <div class="line"></div>
+        <h3>ABOUT US</h3>
+        <h1>Serving Since 1950</h1>
+    </div>
+
+
+    
+</body>
+</html>
